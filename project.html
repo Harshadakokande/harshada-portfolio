@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Harshada Kokande</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: #f0faff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #0077b6;
+      margin-bottom: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .project {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    .project h2 {
+      color: #023e8a;
+    }
+    .project p {
+      color: #555;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #0077b6;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <nav style="padding:1rem; background:#0077b6; color:white; text-align:center;">
+  <a href="index.html" style="color:white; margin:0 10px;">Home</a>
+  <a href="about me.html" style="color:white; margin:0 10px;">About</a>
+  <a href="project.html" style="color:white; margin:0 10px;">Projects</a>
+  <a href="resume.html" style="color:white; margin:0 10px;">Resume</a>
+  <a href="contact.html" style="color:white; margin:0 10px;">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h1>My Projects</h1>
+    <div class="grid">
+      <div class="project">
+        <h2>Stock Market Prediction</h2>
+        <p>AI-based predictive model using Scikit-Learn, XGBoost & LSTM for analyzing historical data and forecasting trends.</p>
+        <a href="https://github.com/Harshadakokande/stock-market-prediction" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h2>Weather Data Analysis</h2>
+        <p>Live weather data using OpenWeatherMap API, parsed and visualized with Pandas, Matplotlib, Seaborn in Python.</p>
+        <a href="https://github.com/Harshadakokande/API-Exploration-Weather-Data-Analysis" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h2>Language Translator</h2>
+        <p>Built using Transformer architecture and NLP libraries to translate multilingual text accurately in Python.</p>
+        <a href="https://github.com/Harshadakokande/language-translator-" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h2>MedConnect</h2>
+        <p>A full-stack web app for patients to book virtual appointments and consult with doctors through an intuitive UI.</p>
+        <a href="https://github.com/Harshadakokande/medconnect" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
